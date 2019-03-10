@@ -4,6 +4,7 @@ class BookRow extends Component {
   render() {
     const book = this.props.book;
     const author = this.props.author;
+    const name = this.props.name;
     return (
       <tr>
         <td>{book.title}</td>
